@@ -1,26 +1,46 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from "react";
+import axios from "axios";
+import Article from "./components/Article";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const service = axios.create({
+  baseURL: process.env.REACT_APP_BACKEND_URL,
+});
+
+function errorHandler(error) {
+  if (error.response.data) {
+    console.log(error.response && error.response.data);
+    throw error;
+  }
+  throw error;
+  // display server error pages here
 }
 
-export default App;
+function getArticles() {
+  return service
+    .get("/articles/")
+    .then((res) => res.data)
+    .catch(errorHandler);
+}
+
+export default class App extends Component {
+  state = {
+    articles: null,
+  };
+  componentDidMount() {
+    getArticles().then((apiRes) => {
+      console.log(apiRes);
+      this.setState({ articles: apiRes });
+    });
+  }
+  render() {
+    return (
+      <div className="list">
+        <h1>Strapi Test</h1>
+        {this.state.articles &&
+          this.state.articles.map((article) => {
+            return <Article content={article} />;
+          })}
+      </div>
+    );
+  }
+}
