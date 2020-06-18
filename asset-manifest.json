@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/strapi_frontend_2/static/css/main.3365be47.chunk.css",
-    "main.js": "/strapi_frontend_2/static/js/main.42e905a3.chunk.js",
-    "main.js.map": "/strapi_frontend_2/static/js/main.42e905a3.chunk.js.map",
+    "main.js": "/strapi_frontend_2/static/js/main.4875fe56.chunk.js",
+    "main.js.map": "/strapi_frontend_2/static/js/main.4875fe56.chunk.js.map",
     "runtime-main.js": "/strapi_frontend_2/static/js/runtime-main.89d0af14.js",
     "runtime-main.js.map": "/strapi_frontend_2/static/js/runtime-main.89d0af14.js.map",
     "static/js/2.5bded2e3.chunk.js": "/strapi_frontend_2/static/js/2.5bded2e3.chunk.js",
     "static/js/2.5bded2e3.chunk.js.map": "/strapi_frontend_2/static/js/2.5bded2e3.chunk.js.map",
     "index.html": "/strapi_frontend_2/index.html",
-    "precache-manifest.0ab7e7dbc0004356d2a62c9cf808f22c.js": "/strapi_frontend_2/precache-manifest.0ab7e7dbc0004356d2a62c9cf808f22c.js",
+    "precache-manifest.b3ae066db16709259f21dad6d7244381.js": "/strapi_frontend_2/precache-manifest.b3ae066db16709259f21dad6d7244381.js",
     "service-worker.js": "/strapi_frontend_2/service-worker.js",
     "static/css/main.3365be47.chunk.css.map": "/strapi_frontend_2/static/css/main.3365be47.chunk.css.map",
     "static/js/2.5bded2e3.chunk.js.LICENSE.txt": "/strapi_frontend_2/static/js/2.5bded2e3.chunk.js.LICENSE.txt"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.89d0af14.js",
     "static/js/2.5bded2e3.chunk.js",
     "static/css/main.3365be47.chunk.css",
-    "static/js/main.42e905a3.chunk.js"
+    "static/js/main.4875fe56.chunk.js"
   ]
 }
