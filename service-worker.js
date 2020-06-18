@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/strapi_frontend_2/precache-manifest.00f61f30433537560b0421886dc91223.js"
+  "/strapi_frontend_2/precache-manifest.b3ae066db16709259f21dad6d7244381.js"
 );
 
 self.addEventListener('message', (event) => {

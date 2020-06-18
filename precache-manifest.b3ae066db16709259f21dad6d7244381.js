@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "20873eb5b1762a52b447d0ff0503c1e8",
+    "revision": "698cc1d50caba11ed5e3dd361754f502",
     "url": "/strapi_frontend_2/index.html"
   },
   {
-    "revision": "4dfffd3e2325349e0dcd",
+    "revision": "3376308e4626df41e78a",
     "url": "/strapi_frontend_2/static/css/main.3365be47.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/strapi_frontend_2/static/js/2.5bded2e3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4dfffd3e2325349e0dcd",
-    "url": "/strapi_frontend_2/static/js/main.31006036.chunk.js"
+    "revision": "3376308e4626df41e78a",
+    "url": "/strapi_frontend_2/static/js/main.4875fe56.chunk.js"
   },
   {
     "revision": "9d4756cbd947719cffea",
